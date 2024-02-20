@@ -1,0 +1,63 @@
+.leftItem {
+  right: -15px;
+}
+.rightItem {
+  left: -15px;
+  top: 30%;
+}
+.rightItem2 {
+  right: -15px;
+  top: 55%;
+}
+.rightItem3 {
+  left: -15px;
+  top: 80%;
+}
+
+@media (max-width: 1024px) {
+  .leftItem {
+    left: -15px;
+    top: 1%;
+  }
+  .rightItem2,.rightItem3 {
+    left: -15px;
+  }
+  .rightItem {
+    top: 28%;
+  }
+  .rightItem2 {
+    top: 50%;
+  }
+  .rightItem3 {
+    left: -15px;
+    top: 72%;
+  }
+  .skillLine{
+    height: 600px;
+  }
+  
+}
+
+@media (max-width: 586px) {
+  .tool {
+    width: 300px;
+  }
+  .leftItem{
+    top: 0;
+  }
+  .rightItem {
+    left: -15px;
+    top: 28%;
+  }
+  .rightItem2 {
+    right: -15px;
+    top: 50%;
+  }
+  .rightItem3 {
+    left: -15px;
+    top: 70%;
+  }
+  .skillLine{
+    height: 800px;
+  }
+}

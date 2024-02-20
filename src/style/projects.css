@@ -1,0 +1,35 @@
+
+.projectHead{
+    padding-bottom: 5px;
+}
+.projectImg {
+    width: 100%; /* Use 100% width for responsiveness */ /* Set a fixed height or adjust as needed */
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: slidePro 8s step-end infinite;
+  }
+  
+  @keyframes slidePro {
+    0% {
+      background-image: url("../assets/project.png");
+    }
+  
+    20% {
+      background-image: url("../assets/p3.png");
+    }
+    40% {
+      background-image: url("../assets/p4.png");
+    }
+    60% {
+      background-image: url("../assets/p5.png");
+    }
+    70% {
+      background-image: url("../assets/p1.png");
+    }
+  
+    100% {
+      background-image: url("../assets/p2.png");
+    }
+  }
+  

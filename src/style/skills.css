@@ -1,0 +1,25 @@
+.skillloader::after {
+  height: 100%;
+  content: "";
+  background-color: blue;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 30px;
+  animation: skill 3s ease-in;
+}
+.nintyPer::after {
+  width: 90%;
+}
+.eightyPer::after {
+  width: 80%;
+}
+.seventyPer::after {
+  width: 70%;
+}
+.sixtyPer::after {
+  width: 60%;
+}
+.fiftyPer::after{
+  width: 50%;
+}

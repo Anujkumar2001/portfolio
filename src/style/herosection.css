@@ -1,0 +1,74 @@
+.herosectionImage::after {
+  top: 0;
+  bottom: 0;
+  /* width: 100%;
+  height: 100%; */
+  content: " ";
+  background-color: #2f3c7e;
+  position: absolute;
+  z-index: 5;
+}
+
+.typing {
+  color: #2F3C7E;
+  animation: typing 6s steps(10,end) alternate infinite ;
+
+  border-right: 4px solid blue;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width:100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* herosection image --------- */
+.herosectionImg {
+  position: relative;
+}
+.herosectionImg::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 5;
+}
+
+.swipup {
+  position: absolute;
+  display: flex;
+  animation: swipUp 3s infinite forwards;
+}
+
+@keyframes swipUp {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 30px;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .circleDashed{
+    display: none;
+    background-color: green;
+  }
+  .myPortfolio{
+    display: none;
+  }
+  
+}
