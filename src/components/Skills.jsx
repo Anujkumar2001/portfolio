@@ -18,19 +18,19 @@ function Skills() {
             {/* ---------------------- */}
             <div className=" w-[90%] ">
               <div className="flex justify-between font-bold opacity-80">
-                <h4 className="">Html</h4>90%
+                <h4 className="">Html</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader nintyPer relative"></span>
             </div>
             <div className=" w-[90%] ">
               <div className="flex justify-between font-bold opacity-80">
-                <h4 className="">Css</h4>80%
+                <h4 className="">Css</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader eightyPer relative"></span>
             </div>
             <div className=" w-[90%] ">
               <div className="flex justify-between font-bold opacity-80">
-                <h4 className="">Tailwind</h4>60%
+                <h4 className="">Tailwind</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader 70% sixtyPer relative"></span>
             </div>
@@ -42,19 +42,19 @@ function Skills() {
           >
             <div className="w-[90%]">
               <div className="flex justify-between font-bold opacity-80">
-                <h4>Javascript</h4>80%
+                <h4>Javascript</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader relative eightyPer"></span>
             </div>{" "}
             <div className="w-[90%]">
               <div className="flex justify-between font-bold opacity-80">
-                <h4>Figma</h4>50%
+                <h4>Figma</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader fiftyPer relative"></span>
             </div>{" "}
             <div className="w-[90%]">
               <div className="flex justify-between font-bold opacity-80">
-                <h4>React</h4>80%
+                <h4>React</h4>
               </div>
               <span className=" inline-block w-full h-2 rounded-md bg-blue-300 skillloader eightyPer relative"></span>
             </div>

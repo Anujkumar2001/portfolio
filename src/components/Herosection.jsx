@@ -46,7 +46,7 @@ function Herosection() {
             </div>
             {/* swiup button --- */}
             <div className="w-60  m-auto text-6xl  to-blue-600 opacity-80 h-24 top-10 flex relative justify-start">
-              <span className="swipup">
+              <span className="swipup  lg:hidden">
                 {" "}
                 <a href="#about">
                   {" "}
