@@ -15,7 +15,7 @@ function About() {
       <div className=" text-[#FBEAEB] px-10" >
         <h1 className="text-5xl font-bold ">About Me</h1>
         <p className="mt-4 tracking-wider text-justify">
-          Hi, I'm Anuj Sharma, a self-taught frontend developer based in Bihar. Recently graduated, I have a solid foundation in web
+          Hi, I'm Anuj Sharma, A self-taught frontend developer based in Bihar. Recently graduated, I have a solid foundation in web
           development technologies, including HTML, CSS, and JavaScript. My
           journey into the world of programming has led me to specialize in
           modern frontend frameworks like React and utilize utility-first CSS
